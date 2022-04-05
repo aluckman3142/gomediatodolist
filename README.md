@@ -1,21 +1,22 @@
-# todo-list
+# go-media todo-list
 
 > A Vue.js project
 
 ## Build Setup
 
-``` bash
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
+Things that work
+Add a task
+Edit A Task
+Delete A Task
+Complete a task
+Show tasks in completed or not completed filter (needs some work I think)
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Things I would fix if I had more time.
+1.) Load Not completed tasks by default instead of completed
+2.) Styling of completed tasks needs fixing (strikethrough class isnt being applied it would seem)
